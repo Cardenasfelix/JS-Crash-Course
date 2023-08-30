@@ -1,10 +1,12 @@
-// Below will show types of Variables involving VAR, LET & CONST  --//
-let fullName = 'Felix Cardenas'
-let temperature = 20
-let planet = 'Earth'
-// "Let" variable make the value equal to "20" --//
-temperature = temperature + 2
+// * 
+// *Convert Temperatures
+// *
+// *Celsius-to-Fahrenheit Formula:
+// *
+// *   F = C x 1.8 + 32
+// *
 
-console.log(temperature)
+let Celsius = 10;
+let Fahrenheit = Celsius * 1.8 + 32
 
-// Once you assign a variable, after you can not reassign another variable to it //
+console.log(Fahrenheit)
